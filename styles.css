@@ -1,0 +1,49 @@
+header{
+    right: 44%;
+    top: 14%;
+    position: absolute;
+    font-family: 'Sue Ellen Francisco', cursive;
+    font-size: 100px;
+    color: white;
+}
+header:hover{
+    color: black;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: linear-gradient(45deg, purple, rgba(255, 0, 0, 0.562));
+}
+
+div {
+    background-color: rgba(0, 0, 0, 0.452);
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    transform: translate(-50%, 50%);
+    padding: 60px;
+    border-radius: 15px;
+    color: white;
+}
+
+input {
+    padding: 15px;
+    border: none;
+    outline: none;
+}
+
+button {
+    background-color: black;
+    border: none;
+    padding: 15px;
+    width: 100%;
+    border-radius: 10px;
+    color: white;
+    font-size: 15px;
+    cursor: pointer;
+
+}
+button:hover{
+    background-color: rgb(248, 178, 248);
+    color: black;
+}
